@@ -1,7 +1,9 @@
 package com.devsuperior.aula.services;
 
 import com.devsuperior.aula.entities.Order;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ShippingService {
 
     public double shipment(Order order) {
